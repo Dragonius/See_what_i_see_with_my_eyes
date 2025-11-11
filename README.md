@@ -1,5 +1,7 @@
 # Raspberry Pi Eye-Tracking Display System
 
+---
+
 ⚠️ WARNING: WORK IN PROGRESS – USE AT YOUR OWN RISK ⚠️
 
 This repository and all associated files, code, and documentation are provided "AS IS" without any warranty, express or implied.  
@@ -39,7 +41,6 @@ By accessing, downloading, or using this code, you acknowledge and agree to the 
 IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS CODE.
 
 ---
-
 
 ## Description
 A Raspberry Pi 5 system that streams dual fisheye camera feeds to HDMI displays while tracking eye openness in five phases and rendering animated animal eyes on two SPI screens.
