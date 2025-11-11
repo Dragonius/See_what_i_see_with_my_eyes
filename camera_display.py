@@ -4,8 +4,6 @@
 
 import cv2
 
-
-
 def display_fisheye_feeds():
     #virtual
     #cam1 = cv2.VideoCapture("sample_fisheye1.mp4")
@@ -38,3 +36,4 @@ def display_fisheye_feeds():
     cam2.release()
 
     cv2.destroyAllWindows()
+
