@@ -1,3 +1,7 @@
+#This software is provided for "educational and experimental purposes only".
+#It is "NOT intended for production use".  
+#By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+
 import cv2
 
 
@@ -32,4 +36,5 @@ def display_fisheye_feeds():
 
     cam1.release()
     cam2.release()
+
     cv2.destroyAllWindows()
