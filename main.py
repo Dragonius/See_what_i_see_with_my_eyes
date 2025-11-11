@@ -1,3 +1,7 @@
+#This software is provided for "educational and experimental purposes only".
+#It is "NOT intended for production use".  
+#By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+
 from camera_display import display_fisheye_feeds
 from eye_tracker import get_eye_state
 from spi_display import show_animal_eyes
@@ -22,3 +26,4 @@ if __name__ == "__main__":
 
     t1.join()
     t2.join()
+
