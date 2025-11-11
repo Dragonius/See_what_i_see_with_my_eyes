@@ -1,11 +1,44 @@
 # Raspberry Pi Eye-Tracking Display System
 
-# ⚠️ WARNING: WIP, USE AT YOUR OWN RISK
-This project is **Work In Progress (WIP)**.  
-**YMMV** (Your Mileage May Vary).  
-It may **break your computer**, **corrupt your SD card**, or **burn everything down** (figuratively).  
-I am **NOT RESPONSIBLE** for any damages, data loss, hardware failure, or any other problems caused by using this repository.  
-If you choose to run this code, you do so **entirely at your own risk**.
+⚠️ WARNING: WORK IN PROGRESS – USE AT YOUR OWN RISK ⚠️
+
+This repository and all associated files, code, and documentation are provided "AS IS" without any warranty, express or implied.  
+By accessing, downloading, or using this code, you acknowledge and agree to the following:
+
+1. **NO GUARANTEE OF FUNCTIONALITY**  
+   This project is incomplete and experimental. It may not work as intended, may fail unexpectedly, or may produce incorrect results.
+
+2. **POTENTIAL RISKS**  
+   - May cause system instability, crashes, or data loss.
+   - May corrupt SD cards, storage devices, or operating systems.
+   - May overheat or damage hardware components.
+   - May result in electrical hazards if wired incorrectly.
+   - May lead to unpredictable behavior including infinite loops, resource exhaustion, or network issues.
+
+3. **NO LIABILITY**  
+   The author assumes **NO RESPONSIBILITY** for:
+   - Hardware damage (including Raspberry Pi, displays, cameras, or peripherals).
+   - Software corruption or data loss.
+   - Personal injury, fire, electrical shock, or property damage.
+   - Any direct, indirect, incidental, or consequential damages arising from use of this code.
+
+4. **NO SUPPORT OR WARRANTY**  
+   This code is provided without any guarantee of support, updates, or bug fixes.  
+   Use at your own discretion and risk.
+
+5. **LEGAL DISCLAIMER**  
+   By using this repository, you agree that:
+   - You will not hold the author liable for any damages or losses.
+   - You assume full responsibility for testing, deployment, and safety precautions.
+   - You comply with all local laws and regulations regarding electronics and software use.
+
+6. **FUTURE LICENSE CHANGE**  
+   This project currently uses a restrictive license.  
+   A permissive license (e.g., MIT) may be applied in the future, but until then, all restrictions remain in effect.
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS CODE.
+
+
 
 
 ## Description
