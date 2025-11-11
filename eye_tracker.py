@@ -8,6 +8,7 @@ import mediapipe as mp
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(refine_landmarks=True)
 
+#THIS NEED TO RECALIBRED !!!!
 LEFT_EYE_IDX = [33, 159, 145, 153, 154, 133]
 
 def get_eye_state():
@@ -47,3 +48,4 @@ def get_eye_state():
     cap.release()
 
     cv2.destroyAllWindows()
+
