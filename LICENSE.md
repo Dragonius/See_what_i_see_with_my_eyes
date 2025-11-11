@@ -1,21 +1,18 @@
-Copyright (c) 2025 Dragonius
+# Copyright (c) 2025 Dragonius
 
-All rights reserved.
+## All rights reserved.
 
-This software is provided for **educational and experimental purposes only**.  
+## This software is provided for **educational and experimental purposes only**.  
 It is **NOT intended for production use**.  
 By using this code, you agree that you assume **ALL risks** and the author is **NOT liable** for any damages, losses, or consequences.
 
-
-This software is provided for viewing and reference purposes only during its development phase.  
+## This software is provided for viewing and reference purposes only during its development phase.  
 You may NOT:
 - Modify, copy, distribute, sublicense, or create derivative works of this software.
 - Use this software for commercial or non-commercial purposes.
 
-
-
-The author reserves the right to change this license at any time.  
+## The author reserves the right to change this license at any time.  
 A future release is planned under a permissive license (e.g., MIT), but until that change is officially published,  
 this restrictive license applies to all versions of the software.
 
-By accessing or using this code, you agree to these terms.
+### By accessing or using this code, you agree to these terms.
