@@ -5,7 +5,7 @@ on:
   push:
     paths:
     - 'main.py'
-    - 'eye_tracker.py.py'
+    - 'eye_tracker.py'
     - 'camera_display.py'
     - 'spi_display.py'
 
