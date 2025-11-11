@@ -1,3 +1,7 @@
+#This software is provided for "educational and experimental purposes only".
+#It is "NOT intended for production use".  
+#By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+
 from PIL import Image
 import ST7789  # or ILI9341 depending on your SPI display
 
@@ -26,4 +30,5 @@ def show_animal_eyes(state):
     img = Image.open(img_map[state])
     display_left.display(img)
     display_right.display(img)
+
 
