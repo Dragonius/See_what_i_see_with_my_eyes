@@ -29,3 +29,12 @@ A Raspberry Pi 5 system that streams dual fisheye camera feeds to HDMI displays 
 git clone https://github.com/See_what_i_see_with_my_eyes.git
 cd See_what_i_see_with_my_eyes
 pip install -r requirements.txt
+```
+
+## Testing
+```bash
+pytest test_imports.py
+flake8 .
+python -m py_compile *.py
+```
+
