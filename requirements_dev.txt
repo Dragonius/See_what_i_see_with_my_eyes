@@ -1,0 +1,20 @@
+# Core dependencies for testing without hardware
+opencv-python==4.8.1.78
+mediapipe==0.10.9
+Pillow==10.0.0
+numpy==1.26.0
+
+# Mocking and testing tools
+pytest==7.4.2
+pytest-mock==3.11.1
+
+# For simulating SPI display (instead of real hardware)
+luma.lcd==2.3.0
+
+# Optional: debugging and profiling
+ipython==8.16.0
+
+
+# Development and validation tools
+flake8==6.1.0
+pylint==3.0.2
