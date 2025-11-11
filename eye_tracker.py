@@ -1,3 +1,7 @@
+#This software is provided for "educational and experimental purposes only".
+#It is "NOT intended for production use".  
+#By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+
 import cv2
 import mediapipe as mp
 
@@ -41,4 +45,5 @@ def get_eye_state():
             break
 
     cap.release()
+
     cv2.destroyAllWindows()
