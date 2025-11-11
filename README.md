@@ -9,11 +9,11 @@ By accessing, downloading, or using this code, you acknowledge and agree to the 
 
 1. **NO GUARANTEE OF FUNCTIONALITY**  
    This project is incomplete and experimental.
-   It may not work as intended, may fail unexpectedly, or may produce incorrect results.
+   It may not work as intended, may fail unexpectedly, or may produce incorrect results.   
    This software is provided without any guarantees or warranties, express or implied.  
    It may fail, malfunction, or behave unpredictably.
 
-2. **POTENTIAL RISKS**  
+3. **POTENTIAL RISKS**  
    - May cause system instability, crashes, or data loss.
    - May corrupt SD cards, storage devices, or operating systems.
    - May overheat or damage hardware components.
@@ -27,7 +27,7 @@ By accessing, downloading, or using this code, you acknowledge and agree to the 
    - Physical injury or property damage caused by improper wiring or usage.  
    - Complete system crashes or infinite loops consuming resources. 
 
-3. **NO LIABILITY**  
+4. **NO LIABILITY**  
    The author assumes **NO RESPONSIBILITY** for:
    - Hardware damage (including Raspberry Pi, displays, cameras, or peripherals).
    - Software corruption or data loss.
@@ -36,24 +36,28 @@ By accessing, downloading, or using this code, you acknowledge and agree to the 
    - Any personal injury, property damage, or legal consequences. 
    - Any direct, indirect, incidental, or consequential damages arising from use of this code.
 
-4. **NO SUPPORT OR WARRANTY OR GUARANTEE OF FUNCTIONALITY**
+5. **NO SUPPORT OR WARRANTY OR GUARANTEE OF FUNCTIONALITY**
    This is experimental code.
    It may break your computer, corrupt your files, or cause unexpected behavior.  
    This code is provided without any guarantee of support, updates, or bug fixes.  
    Use at your own discretion and risk.
    If you are not comfortable with these risks, DO NOT USE THIS CODE.  
 
-5. **LEGAL DISCLAIMER**  
+6. **LEGAL DISCLAIMER**  
    By using this repository, you agree that:
    - You will not hold the author liable for any damages or losses.
    - You assume full responsibility for testing, deployment, and safety precautions.
    - You comply with all local laws and regulations regarding electronics and software use.
 
-6. **FUTURE LICENSE CHANGE**  
+7. **FUTURE LICENSE CHANGE**  
    This project currently uses a restrictive license.  
    A permissive license (e.g., MIT) may be applied in the future, but until then, all restrictions remain in effect.
 
 IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS CODE.
+
+### This software is provided for **educational and experimental purposes only**.  
+It is **NOT intended for production use**.  
+By using this code, you agree that you assume **ALL risks** and the author is **NOT liable** for any damages, losses, or consequences.
 
 ---
 
