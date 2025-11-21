@@ -18,7 +18,8 @@ def display_fisheye_feeds():
     print("Camera 1 FPS:", fps)
     fps2 = cam2.get(cv2.CAP_PROP_FPS)
     print("Camera 2 FPS:", fps2)
-
+    #Inital slow fps printer
+    fps_counter=0
 
     while True:
         ret1, frame1 = cam1.read()
@@ -28,6 +29,13 @@ def display_fisheye_feeds():
             cv2.imshow("Fisheye 1", frame1)
         if ret2:
             cv2.imshow("Fisheye 2", frame2)
+        fps_counter=fps_counter+1
+        if fps_counter > 200:
+            fps = cam1.get(cv2.CAP_PROP_FPS)
+            print("Camera 1 FPS:", fps)
+            fps2 = cam2.get(cv2.CAP_PROP_FPS)
+            print("Camera 2 FPS:", fps2)
+            fps_counter=0
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

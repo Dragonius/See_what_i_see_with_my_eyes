@@ -27,8 +27,8 @@ def show_animal_eyes(state):
         "closed": "assets/eye_closed.png"
     }
 
-#img = Image.open(img_map[state])
-#display_left.display(img)
-#display_right.display(img)
+    img = Image.open(img_map[state])
+    #display_left.display(img)
+    #display_right.display(img)
 
 
