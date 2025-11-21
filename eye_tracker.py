@@ -1,20 +1,22 @@
-#This software is provided for "educational and experimental purposes only".
-#It is "NOT intended for production use".  
-#By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+# This software is provided for "educational and experimental purposes only".
+# It is "NOT intended for production use".
+# By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
 
 import cv2
 import mediapipe as mp
 
+
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(refine_landmarks=True)
 
-#THIS NEED TO RECALIBRED !!!!
+# THIS NEED TO RECALIBRED !!!!
 LEFT_EYE_IDX = [33, 159, 145, 153, 154, 133]
 
+
 def get_eye_state():
-    #virtual
+    # virtual
     cap = cv2.VideoCapture("./assets/eye_test_video.mp4")
-    #cap = cv2.VideoCapture(2)  # Eye tracking camera
+    # cap = cv2.VideoCapture(2)  # Eye tracking camera
     while True:
         ret, frame = cap.read()
         if not ret:
@@ -46,6 +48,4 @@ def get_eye_state():
             break
 
     cap.release()
-
     cv2.destroyAllWindows()
-

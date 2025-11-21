@@ -1,22 +1,18 @@
-#This software is provided for "educational and experimental purposes only".
-#It is "NOT intended for production use".  
-#By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+# This software is provided for "educational and experimental purposes only".
+# It is "NOT intended for production use".
+# By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
 
 from PIL import Image
-import ST7789  # or ILI9341 depending on your SPI display
-
-#virtual
-def show_animal_eyes(state):
-    print(f"SPI Display would show: {state}")
-    return state
+import st7789  # or ILI9341 depending on your SPI display
 
 
 # Initialize two displays
-#display_left = ST7789.ST7789(port=0, cs=8, dc=25, rst=27)
-#display_right = ST7789.ST7789(port=1, cs=7, dc=24, rst=23)
+# display_left = ST7789.ST7789(port=0, cs=8, dc=25, rst=27)
+# display_right = ST7789.ST7789(port=1, cs=7, dc=24, rst=23)
 
-#display_left.init()
-#display_right.init()
+# display_left.init()
+# display_right.init()
+
 
 def show_animal_eyes(state):
     img_map = {
@@ -28,7 +24,7 @@ def show_animal_eyes(state):
     }
 
     img = Image.open(img_map[state])
-    #display_left.display(img)
-    #display_right.display(img)
-
-
+    # display_left.display(img)
+    # display_right.display(img)
+    # Virtual bellow
+    print(f"SPI Display would show: {state}")

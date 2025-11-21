@@ -1,9 +1,11 @@
-#This software is provided for "educational and experimental purposes only".
-#It is "NOT intended for production use".  
-#By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+# This software is provided for "educational and experimental purposes only".
+# It is "NOT intended for production use".
+# By using this code, you agree that you assume "ALL risks" and the author is "NOT liable" for any damages, losses, or consequences.
+
 
 import importlib
 import pathlib
+
 
 def test_imports():
     project_root = pathlib.Path(__file__).parent
