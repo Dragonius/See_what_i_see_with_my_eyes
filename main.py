@@ -17,7 +17,7 @@ def run_eye_tracking():
     while True:
         state = get_eye_state()
         show_animal_eyes(state)
-        time.sleep(0.2)  # SPI can be slow, no problem
+        time.sleep(1.0)  # SPI can be slow, no problem
 
 if __name__ == "__main__":
     t1 = threading.Thread(target=run_camera_display)

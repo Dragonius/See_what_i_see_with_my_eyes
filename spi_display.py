@@ -7,7 +7,7 @@ import ST7789  # or ILI9341 depending on your SPI display
 
 #virtual
 def show_animal_eyes(state):
-    #print(f"SPI Display would show: {state}")
+    print(f"SPI Display would show: {state}")
     return state
 
 
@@ -18,14 +18,14 @@ def show_animal_eyes(state):
 #display_left.init()
 #display_right.init()
 
-#def show_animal_eyes(state):
-#    img_map = {
-#        "open": "assets/eye_open.png",
-#        "open_3_4": "assets/eye_open_3_4.png",
-#        "half": "assets/eye_half.png",
-#        "closed_3_4": "assets/eye_closed_3_4.png",
-#        "closed": "assets/eye_closed.png"
-#    }
+def show_animal_eyes(state):
+    img_map = {
+        "open": "assets/eye_open.png",
+        "open_3_4": "assets/eye_open_3_4.png",
+        "half": "assets/eye_half.png",
+        "closed_3_4": "assets/eye_closed_3_4.png",
+        "closed": "assets/eye_closed.png"
+    }
 
 #img = Image.open(img_map[state])
 #display_left.display(img)

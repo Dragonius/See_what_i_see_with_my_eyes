@@ -13,7 +13,7 @@ LEFT_EYE_IDX = [33, 159, 145, 153, 154, 133]
 
 def get_eye_state():
     #virtual
-    cap = cv2.VideoCapture("eye_test_video.mp4")
+    cap = cv2.VideoCapture("./assets/eye_test_video.mp4")
     #cap = cv2.VideoCapture(2)  # Eye tracking camera
     while True:
         ret, frame = cap.read()
