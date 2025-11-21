@@ -9,7 +9,9 @@ import threading
 import time
 
 def run_camera_display():
-    display_fisheye_feeds()
+    while True:
+        display_fisheye_feeds()
+        time.sleep(0.2)
 
 def run_eye_tracking():
     while True:

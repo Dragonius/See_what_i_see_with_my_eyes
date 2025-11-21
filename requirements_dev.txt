@@ -18,7 +18,3 @@ ipython==8.16.0
 # Development and validation tools
 flake8==6.1.0
 pylint==3.0.2
-
-ST7789==0.0.1
-spidev
-

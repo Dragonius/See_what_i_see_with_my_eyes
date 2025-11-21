@@ -7,8 +7,8 @@ import ST7789  # or ILI9341 depending on your SPI display
 
 #virtual
 def show_animal_eyes(state):
-    print(f"SPI Display would show: {state}")
-
+    #print(f"SPI Display would show: {state}")
+    return state
 
 
 # Initialize two displays
