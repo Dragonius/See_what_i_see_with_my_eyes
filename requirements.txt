@@ -1,5 +1,5 @@
 opencv-python==4.8.1.78
-mediapipe==0.10.10
+mediapipe
 Pillow==10.0.0
 numpy==1.26.0
 ST7789==0.0.1   # or use luma.lcd if your SPI display uses that driver
