@@ -14,17 +14,4 @@ ko_fi: "Flammever"
 #thanks_dev: # Replace with a single thanks.dev username
 #custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2'
 
-#message: "If you find this project useful, please consider sponsoring development. All funds help with hardware, testing, and maintenance."
 
-# WHY FUNDING?
-# I am an engineering student working part‑time on weekends while running out of government funding.
-# Supporting this project directly helps me continue building, maintaining, and improving my own work.
-# Many student projects die after graduation because there is no time or funding to maintain them.
-# Your support helps keep this project alive and actively developed.
-
-
-# Notes for use:
-# 1. Replace all placeholder values with real account names/URLs before committing.
-# 2. Keep this file in the repository root as FUNDING.yml so GitHub shows sponsor buttons.
-# 3. You can remove any keys you don't use.
-# 4. If you only want GitHub Sponsors, you can leave only the `github:` line.
