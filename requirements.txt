@@ -3,7 +3,7 @@ mediapipe
 Pillow==10.0.0
 numpy==1.26.0
 ST7789==0.0.1   # or use luma.lcd if your SPI display uses that driver
-
+spidev
 
 
 # Development and validation tools
