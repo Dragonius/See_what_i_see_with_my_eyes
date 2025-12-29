@@ -10,8 +10,8 @@ def display_fisheye_feeds():
     cam1 = cv2.VideoCapture("./assets/sample_fisheye1.mp4")
     cam2 = cv2.VideoCapture("./assets/sample_fisheye2.mp4")
 
-    # cam1 = cv2.VideoCapture(0)  # Fisheye camera 1
-    # cam2 = cv2.VideoCapture(1)  # Fisheye camera 2
+    #cam1 = cv2.VideoCapture(1)  # Fisheye camera 1
+    # cam2 = cv2.VideoCapture(2)  # Fisheye camera 2
 
     # virtual
     # Check FPS for performance
