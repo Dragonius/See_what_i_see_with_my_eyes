@@ -95,7 +95,7 @@ pip install -r requirements.txt
 ## Testing
 ```bash
 pytest test_imports.py
-flake8 .
+flake8 *.py
 python -m py_compile *.py
 ```
 
