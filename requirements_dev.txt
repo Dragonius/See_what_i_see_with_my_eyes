@@ -1,6 +1,5 @@
 # Core dependencies for testing without hardware
 opencv-python==4.8.1.78
-mediapipe==0.10.9
 Pillow==10.0.0
 numpy==1.26.0
 
@@ -20,3 +19,4 @@ flake8==6.1.0
 pylint==3.0.2
 
 spidev
+mediapipe==0.10.9
